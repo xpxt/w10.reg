@@ -71,3 +71,16 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT\Wow6432Node\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}]
 "System.IsPinnedToNameSpaceTree"=dword:00000000
+
+;3DPRINT
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.bmp\Shell\T3D Print]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.jpg\Shell\T3D Print]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.jpeg\Shell\T3D Print]
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.png\Shell\T3D Print]
+
+;RECYCLE
+[-HKEY_CLASSES_ROOT\Folder\shell\pintostartscreen]
+[-HKEY_CLASSES_ROOT\Folder\shellex\ContextMenuHandlers\PintoStartScreen]
+
+;CASTTODEV
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\image\shellex\ContextMenuHandlers\PlayTo]
